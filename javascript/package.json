@@ -1,0 +1,27 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Learning js",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krstef/Learning-WEB.git"
+  },
+  "keywords": [
+    "learning",
+    "fe",
+    "js"
+  ],
+  "author": "krstef",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "2.5.4"
+  },
+  "bugs": {
+    "url": "https://github.com/krstef/Learning-WEB/issues"
+  },
+  "homepage": "https://github.com/krstef/Learning-WEB#readme"
+}
