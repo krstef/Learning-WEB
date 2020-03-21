@@ -2,10 +2,28 @@
 <html lang="en">
     <head>
         <title>My first page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <p id="message">
-            <script src="./index.js"></script>
-        </p>
+        <div class="container crf-full-banner">
+            <div class="container">
+                <p id="message"></p>
+                <a id="button_click_id" class="btn btn-default">Hide element</a>
+            </div>
+            
+            <div id="show_hide" class="container">
+                <h4>DIV element</h4>
+                <p>This element might be shown or hidden based on your click</p>
+            </div>
+
+            <div id="additional" class="container">
+                <h5>Additional container</h5>
+            </div>
+        </div>
+        <script src="./index.js"></script>
     </body>
 </html>
